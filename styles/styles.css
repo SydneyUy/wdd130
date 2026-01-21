@@ -18,6 +18,10 @@ h1 {
     color: darkblue;
 }
 
+main {
+    max-width: 840px;
+}
+
 main img {
     width: 200px;
     height: auto;
