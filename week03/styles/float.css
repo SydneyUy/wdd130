@@ -17,10 +17,13 @@ p {
     box-shadow: 0 0 30px #777;
 }
 
+/*standard CSS declration for img
+width: 100%
+height: auto; */
+
 footer {
     border-top: 1px solid #555;
     padding-top: 5px;
     /* Remove the comment below and observe the results. */
 
-    /* clear: both; */
 }
