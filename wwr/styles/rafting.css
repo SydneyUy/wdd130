@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #E4BF79;
+    /*light yellow*/
+    --secondary-color: #9BAAC9;
+    /*soft blue */
+    --tertiary-color: #70736C;
+    /*light grey*/
+    --heading-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--heading-font);
+    color: var(--tertiary-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100px;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+article {
+    position: absolute;
+    bottom: 12px;
+    right: 40px;
+}
+
+article p {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    opacity: 0.9;
+    margin: 20px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+nav img {
+    width: 60px;
+}
+
+/* Class selectors */
+
+.socialmedia a {
+    text-decoration: none;
+    /* only applies to anchor tags (a) that are connected to the socialmedia class (children of elements with a socialmedia class)*/
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
