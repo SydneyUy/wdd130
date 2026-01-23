@@ -95,4 +95,7 @@ nav img {
 .hero article img {
     float: right;
     width: 125px;
+    border: 12px;
+    box-shadow: 2px #70736C;
+    margin: 1rem;
 }
