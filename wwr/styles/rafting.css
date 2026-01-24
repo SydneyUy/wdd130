@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #9BAAC9;
+    --primary-color: #60749B;
     /*soft blue */
     --secondary-color: #70736C;
     /*light grey*/
@@ -100,6 +100,6 @@ nav img {
     float: right;
     width: 125px;
     border: 12px;
-    box-shadow: 2px var(--secondary-color);
+    box-shadow: 0 0 30px var(--secondary-color);
     margin: 1rem;
 }
