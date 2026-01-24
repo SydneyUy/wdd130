@@ -92,6 +92,10 @@ nav img {
     height: auto;
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero article img {
     float: right;
     width: 125px;
