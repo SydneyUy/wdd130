@@ -1,10 +1,9 @@
 :root {
-    --primary-color: #E4BF79;
-    /*light yellow*/
-    --secondary-color: #9BAAC9;
+    --primary-color: #9BAAC9;
     /*soft blue */
-    --tertiary-color: #70736C;
+    --secondary-color: #70736C;
     /*light grey*/
+    --highlight-text: white;
     --heading-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +16,7 @@
 
 body {
     font-family: var(--heading-font);
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 header,
@@ -34,8 +33,8 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--highlight-text);
 }
 
 h1 {
@@ -53,6 +52,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    font-family: var(--body-font);
 }
 
 article {
@@ -67,8 +67,8 @@ article p {
     text-align: center;
     opacity: 0.9;
     margin: 20px;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--highlight-text);
 }
 
 nav img {
@@ -96,6 +96,6 @@ nav img {
     float: right;
     width: 125px;
     border: 12px;
-    box-shadow: 2px #70736C;
+    box-shadow: 2px var(--secondary-color);
     margin: 1rem;
 }
