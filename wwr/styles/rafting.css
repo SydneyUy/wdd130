@@ -26,8 +26,28 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+header ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+}
+
 header img {
     width: 100px;
+
 }
 
 h1,
@@ -71,8 +91,19 @@ article p {
     color: var(--highlight-text);
 }
 
-nav img {
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer p {
+    padding-right: 280px;
+}
+
+footer nav img {
     width: 60px;
+    height: auto;
 }
 
 /* Class selectors */
@@ -102,4 +133,9 @@ nav img {
     border: 12px;
     box-shadow: 0 0 30px var(--secondary-color);
     margin: 1rem;
+}
+
+.adventure img {
+    float: inline-start;
+    padding: 12px;
 }
