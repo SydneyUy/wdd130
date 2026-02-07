@@ -111,6 +111,31 @@ footer nav img {
     height: auto;
 }
 
+iframe {
+    padding: 12px;
+}
+
+form {
+    display: flex;
+    float: inline-end;
+    margin: 12px;
+    flex-direction: column;
+}
+
+input[type=radio] {
+    padding-right: 12px;
+}
+
+button[type=submit] {
+    width: 120px;
+    height: auto;
+}
+
+div {
+    text-align: center;
+    font-size: large;
+}
+
 /* Class selectors */
 
 .socialmedia a {
