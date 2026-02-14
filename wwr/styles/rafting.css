@@ -47,11 +47,13 @@ header li a {
 
 header img {
     width: 100px;
+    height: auto;
 
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--heading-font);
     background-color: var(--primary-color);
     color: var(--highlight-text);
@@ -67,6 +69,12 @@ h1 {
 h2 {
     text-align: center;
     flex: 0 0 100%;
+}
+
+h3 {
+    width: 60%;
+    padding: 12px;
+    margin: 3px;
 }
 
 nav,
@@ -135,6 +143,30 @@ div {
     font-size: large;
 }
 
+table {
+    margin: 12px;
+    float: right;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+
 /* Class selectors */
 
 .socialmedia a {
@@ -201,5 +233,21 @@ div {
 
 .history img {
     width: 200px;
+    height: auto;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 34%);
+}
+
+.trips div {
+    padding: 5px;
+    align-content: center;
+}
+
+.trips img {
+    padding: 2px;
+    width: 260px;
     height: auto;
 }
